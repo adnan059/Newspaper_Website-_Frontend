@@ -1,0 +1,11 @@
+.leftContainer {
+  width: 72%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .leftContainer {
+    width: 100%;
+  }
+}

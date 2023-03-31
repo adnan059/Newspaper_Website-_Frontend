@@ -1,0 +1,71 @@
+.footer {
+  margin: 5rem 0 0rem 0;
+  background-color: #000;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.footer .row1 {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.footer .row1 .lsf,
+.footer .row1 .rsf {
+  width: 50%;
+}
+
+.footer .row1 .lsf img {
+  height: 8rem;
+}
+
+.footer .row1 .lsf p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+.footer .row1 .lsf p:nth-of-type(1) {
+  width: 80%;
+}
+
+.footer .row1 .rsf {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer .row1 .rsf > div {
+  width: 30%;
+}
+
+.footer .row1 .rsf > div a {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+.footer .row1 .rsf > div a:hover {
+  color: var(--primary);
+}
+
+.footer .credit {
+  text-align: center;
+  font-size: 1.7rem;
+  margin-top: 5rem;
+}
+
+.footer .credit span {
+  color: var(--primary);
+}
+
+@media (max-width: 1050px) {
+  .footer .row1 {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer .row1 .rsf {
+    flex-direction: column;
+  }
+}

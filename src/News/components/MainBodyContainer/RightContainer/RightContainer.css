@@ -1,0 +1,14 @@
+.rightContainer {
+  width: 28%;
+  overflow-x: hidden;
+}
+
+.rightContainer > section {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .rightContainer {
+    width: 100%;
+  }
+}

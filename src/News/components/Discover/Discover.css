@@ -1,0 +1,23 @@
+.discoverContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.discoverContainer .box {
+  width: 20rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.discoverContainer .box img {
+  height: 11.25rem;
+  object-fit: cover;
+  width: 100%;
+}

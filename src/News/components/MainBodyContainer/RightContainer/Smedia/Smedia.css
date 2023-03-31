@@ -1,0 +1,32 @@
+.smedia div {
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 1rem 1.5rem;
+
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.smedia div i {
+  margin-right: 1.5rem;
+}
+
+.smedia .fb {
+  background-color: #3b5998;
+}
+
+.smedia .pint {
+  background-color: #e60023;
+}
+
+.smedia .twt {
+  background-color: #1d9bf0;
+}
+
+.smedia .inst {
+  background-color: #7b0af0;
+}
+
+.smedia .yt {
+  background-color: #ff0000;
+}

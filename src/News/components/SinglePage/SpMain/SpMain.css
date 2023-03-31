@@ -1,0 +1,79 @@
+.spMain .title {
+  margin-top: 5rem;
+  font-size: 3.5rem;
+  font-weight: 650;
+}
+
+.spMain .authorDate {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.spMain .authorDate span {
+  margin-left: 0.8rem;
+  color: var(--primary);
+}
+.spMain .authorDate img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 0.8rem;
+}
+
+.spMain .socials {
+  margin: 1.5rem 0;
+}
+
+.spMain .socials a {
+  font-size: 2.8rem;
+  margin-right: 1rem;
+  color: var(--primary);
+}
+
+.spMain .para1,
+.spMain .para2,
+.spMain .para3,
+.spMain .details .detPara1,
+.spMain .details .detPara2,
+.spMain .details .detPara3 {
+  font-size: 1.6rem;
+  margin: 3rem 0;
+  line-height: 1.8;
+}
+
+.spMain .cover {
+  display: block;
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  margin: 3rem auto;
+}
+
+.spMain .details {
+  margin: 3rem 0;
+}
+
+.spMain .details .detTitle {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 3rem 0;
+}
+
+.spMain .details .quote {
+  border-left: 6px solid var(--primary);
+  margin: 3rem 0;
+}
+
+.spMain .details .quote p {
+  font-size: 1.8rem;
+  padding: 3rem 3rem 2rem 3rem;
+}
+
+.spMain .details .quote i {
+  font-size: 5rem;
+  color: var(--primary);
+  margin-left: 3rem;
+}

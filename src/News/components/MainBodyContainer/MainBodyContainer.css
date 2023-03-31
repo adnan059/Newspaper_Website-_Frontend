@@ -1,0 +1,11 @@
+.mainBodyContainer .container .row {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .mainBodyContainer .container .row {
+    flex-direction: column;
+  }
+}
